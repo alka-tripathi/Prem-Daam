@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100%;
+}
+#header{
+ 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0px 60px ; */
+    background: #E3E6F3;
+    background: #9acbd0;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.06);
+    z-index: 999;
+    position: sticky;
+    top:0;
+    left: 0;
+
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: 500;
+    /* color: #1a1a1a; */
+    color: whitesmoke;
+
+/* color:#40a8ac; */
+ 
+    transition: 0.3s ease;
+
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color:#088178;
+    
+}
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 60%;
+    height: 2px;
+    background-color:#088178;
+    position:absolute;
+    bottom: -4px;
+    left:25px;
+}
+
+#header #logo{
+height: 80px;
+width: 140px;
+/* background-color: orange; */
+border-radius: 50%;
+margin-left: 20px;
+padding-top:20px;
+background-image: url("Photos/logo1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+.section2{
+    height: 100vh;
+    background-color: pink;
+    background-image: url("Photos/accountBG.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
