@@ -1,3 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+button,body{
+    font-family: "Poppins", sans-serif;
+}
+
+
+.fullConatiner{
+    width: 100%;
+}
+.container{
+    width: 1140px;
+    margin:auto;
+}
+header{
+    width: 100%;
+    /* background-color: #baf0ec; */
+    background-color: #40a8ac;
+    /* position: fixed; */
+    z-index: 2;
+    background: transparent;
+
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+header .container .logo{
+    padding: 15px 0;
+    height: 75px;
+}
+
+header .container .logo img{
+    height:20%;
+}
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+    display: inline-block;
+
+}
+header nav ul li a{
+    display: inline-block;
+    height:60px;
+ 
+    line-height: 70px;
+    padding:0 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 17px;
+  color: #40a8ac;
+    transform: 0.3s;
+    font-weight: 600;
+}
+
+header nav ul li a:hover{
+    /* background-color:#088178 ; */
+  background-color:  #40a8ac;
+  color:#fff;
+}
+
+.container-two{
+    min-height: 80vh;
+    width: 70%;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    /* display: flex;
+    justify-content: center; */
+    background-image: url("Photos/homeBG.jpg"); 
+    background-size: cover;
+
+    background-position: center; */
+  
+}
+/* .container-two img{
+    mar
+} */
+
+
+
+
+
+
+
+
+
+
+
+
 *{
     padding: 0;
     margin: 0;

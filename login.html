@@ -6,7 +6,8 @@
     <title>Login Page</title>
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   
 </head>
 <body>
     <section id="header">
@@ -39,22 +40,22 @@
                 <h1>Login</h1>
                 <div class="input-box">
 
-                    <input type="text" placeholder="Username" required>
+                    <input type="text" placeholder="Username" >
                     <i class='bx bxs-user'></i>
                 </div>
                 <div class="input-box">
 
-                    <input type="text" placeholder="Profession " required>
+                    <input type="text" placeholder="Profession " >
                     <i class='bx bx-user-circle' ></i>
                 </div>
                 <div class="input-box">
 
-                    <input type="text" placeholder="Email" required>
+                    <input type="text" placeholder="Email" >
                     <i class='bx bxs-envelope'></i>
                 </div>
                 <div class="input-box">
 
-                    <input type="password" placeholder="Password" required>
+                    <input type="password" placeholder="Password">
                     <i class='bx bxs-lock' ></i>
                 </div>
                 <div class="remerber-forgot">
@@ -65,13 +66,19 @@
                
                 <p>Or</p>
              
-                <button type="submit" class="btn" id="btn1">Google</button>
+               <div> <button class="btn" id="google-login-btn">
+                <i class="fab fa-google"></i>
+
+                Login with Google
+
+            </button></div>
              
                 
             </form>
         </div>
     
      </div>
-
+     <script type="module" src="main.js" defer></script>
+  
 </body>
 </html>
